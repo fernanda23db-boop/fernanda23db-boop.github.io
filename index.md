@@ -23,3 +23,15 @@ Apliqué un protocolo de post-mortem constructivo, enfocado en causas y no en cu
    - Carpeta separada de "Entregables" desde la cual se hace todo envío a clientes; nada se envía desde la carpeta de trabajo.
    - Verificación previa al envío: abrir el adjunto antes de enviar, siempre.
    - Adopción de control de versiones real (Git/GitHub) para la documentación de procesos, precisamente lo que estoy aplicando al publicar este blog.
+## Aprendizajes
+
+- **El control de versiones no es solo para código.** Cualquier flujo que produzca múltiples versiones de un archivo —un CV, un manual, una propuesta— necesita convenciones claras de nombres, separación entre trabajo en curso y entregables, e historial de cambios. Git resuelve de forma nativa lo que yo intentaba resolver con memoria y buena voluntad.
+- **Los errores de proceso se corrigen con procesos, no con promesas.** "Voy a fijarme más" no es una acción correctiva; una carpeta de entregables con verificación previa sí lo es.
+- **Un post-mortem sin culpas produce mejoras reales.** Al enfocarme en la causa raíz en lugar de castigarme por el descuido, salieron mejoras concretas que hoy son parte estándar de mi flujo de trabajo.
+- **La transparencia fortalece la relación con el cliente.** El reenvío honesto y rápido fue mejor recibido que cualquier intento de disimular el error.
+
+## Reflexión: feedback radicalmente sincero
+
+Este incidente me obligó a practicar el feedback radicalmente sincero en dos direcciones. Primero, hacia el cliente: reconocer el error de frente, sin minimizarlo ni sobreexplicarlo, cuidando la relación con honestidad y respeto. Segundo —y más difícil—, hacia mí misma: aceptar que el problema no era un descuido puntual sino una falla de diseño en mi propio proceso, algo incómodo de admitir cuando una es la fundadora y responsable de todo el flujo.
+
+Durante la creación de este blog también apliqué ese principio: cada commit de este repositorio documenta una etapa real del trabajo, con mensajes claros que cualquier persona puede auditar. La sinceridad radical, aplicada al proceso técnico, se traduce en trazabilidad: que el historial cuente la verdad de cómo se construyó el resultado.
