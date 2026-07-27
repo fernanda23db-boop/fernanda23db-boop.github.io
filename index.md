@@ -11,3 +11,15 @@ Como muchas operaciones pequeñas, durante un tiempo gestionamos estos archivos 
 Un día, al enviar la entrega final a una clienta, adjunté por error una versión interna de trabajo de su CV en lugar de la versión final. La versión interna contenía notas de revisión y elementos que no estaban pensados para ojos del cliente.
 
 El problema técnico de fondo no fue el descuido de un momento: fue la ausencia de un sistema de control de versiones. Ambos archivos convivían en la misma carpeta, con nombres casi idénticos, sin ninguna barrera que impidiera confundirlos. El error era cuestión de tiempo; si no ocurría ese día, iba a ocurrir otro.
+## Acciones
+
+Apliqué un protocolo de post-mortem constructivo, enfocado en causas y no en culpas:
+
+1. **Contención inmediata:** envié un reenvío correctivo a la clienta con la versión final, reconociendo el error con honestidad y profesionalismo, sin excusas.
+2. **Descripción objetiva del incidente:** documenté qué se envió, cuándo y por qué canal, para entender la secuencia exacta.
+3. **Análisis de causa raíz:** la causa no fue "falta de atención", sino un flujo de trabajo sin separación entre archivos de trabajo y entregables finales. Preguntándome "¿por qué?" varias veces, llegué a la raíz: no existía una convención de versiones ni una carpeta exclusiva de entregables.
+4. **Acciones correctivas y preventivas:**
+   - Convención de nombres obligatoria: los archivos internos llevan sufijo `_BORRADOR` y los finales `_FINAL_v1`, `_FINAL_v2`, etc.
+   - Carpeta separada de "Entregables" desde la cual se hace todo envío a clientes; nada se envía desde la carpeta de trabajo.
+   - Verificación previa al envío: abrir el adjunto antes de enviar, siempre.
+   - Adopción de control de versiones real (Git/GitHub) para la documentación de procesos, precisamente lo que estoy aplicando al publicar este blog.
